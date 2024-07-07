@@ -10,7 +10,6 @@ let c =5;
 c =10; //we can re initialize
 console.log(c);
 
-
 // constent
 const d = 15;
  // d = 20; //we cant re-declare const
