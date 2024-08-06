@@ -1,3 +1,4 @@
+
 let img = document.querySelectorAll("img");
 let h1 = document.querySelectorAll("h1");
 fetch("https://jsonplaceholder.typicode.com/photos")
