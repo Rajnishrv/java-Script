@@ -103,24 +103,24 @@
     <p>Description:</p><b>Price:</b><img src="" alt="">
     <script>
         let bold = document.querySelectorAll('b');
-let para = document.querySelectorAll('p');
-let images = document.querySelectorAll('img');
-let heading = document.querySelectorAll('h2')
+        let para = document.querySelectorAll('p');
+        let images = document.querySelectorAll('img');
+        let heading = document.querySelectorAll('h2')
 
-async function fetchData() {
-    let data = await fetch('https://dummyjson.com/products');
-    let photos = await data.json();
-    let contents = photos.products;
-    console.log(contents);
+        async function fetchData() {
+            let data = await fetch('https://dummyjson.com/products');
+            let photos = await data.json();
+            let contents = photos.products;
+            console.log(contents);
 
-    for (let i = 0; i < contents.length; i++) {
-        heading[i].innerText = contents[i].title;
-        bold[i].innerHTML = bold[i].innerText + contents[i].price;
-        para[i].innerHTML = para[i].innerText + contents[i].description;
-        images[i].src = contents[i].thumbnail;
-    }
-}
-fetchData();
+            for (let i = 0; i < contents.length; i++) {
+                heading[i].innerText = contents[i].title;
+                bold[i].innerHTML = bold[i].innerText + contents[i].price;
+                para[i].innerHTML = para[i].innerText + contents[i].description;
+                images[i].src = contents[i].thumbnail;
+            }
+        }
+        fetchData();
     </script>
 </body>
 
