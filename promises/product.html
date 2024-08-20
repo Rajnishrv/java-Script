@@ -112,7 +112,7 @@
             let photos = await data.json();
             let contents = photos.products;
             console.log(contents);
-
+            
             for (let i = 0; i < contents.length; i++) {
                 heading[i].innerText = contents[i].title;
                 bold[i].innerHTML = bold[i].innerText + contents[i].price;

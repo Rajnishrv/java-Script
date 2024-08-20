@@ -9,7 +9,7 @@ let data = new Promise((resolve, reject) => {
 fetch("https://api.github.com/users/Rajnishrv")
     .then((resolve) => {
         resolve.json()
-            .then((res) => { 
+            .then((res) => {
                 console.log(res)
             })
             .catch((err) => {
