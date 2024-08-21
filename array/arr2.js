@@ -6,20 +6,15 @@
 //     }
 // }
 
-
 // let res=arr.filter((x)=>{
 //     return x>50
 // })
-
 // console.log(res);
-
-
 
 
 // arr.map((x)=>{
 //     console.log(x);
 // })
-
 
 // arr.forEach((x)=>{
 //     console.log(x);

@@ -1,4 +1,4 @@
-// usign litrels
+// //usign litrels
 // let student = {
 //     id : 21,
 //     name: "rajnish",
@@ -9,7 +9,7 @@
 // console.log(student)
 // console.log(student.sub[1])
 
-// creating object using function
+// //creating object using function
 // function emp (id, ename, sal){
 //     this.id = id
 //     this.ename= ename;
@@ -25,7 +25,7 @@
 // delete e1.job
 // console.log(e1)
 
-
+//creating object using constructor
 class EmpName {
     constructor(id, ename, sal, role) {
         this.id = id;
