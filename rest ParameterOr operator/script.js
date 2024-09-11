@@ -14,5 +14,5 @@ let arr = [12, 32, 24, 534, 334, 53, 34];
 let a= 10;
 let b = 20;
 let c = 30;
-let [...n] = [a, b, c]
+let [...n] = [a, b, c];
 console.log(n);

@@ -3,14 +3,14 @@
 //     console.log(4+5)
 // }
 // sum();
-// function add (a, b){
+// function add (a, b){ 
 // return a+b;
 // }
 // // higher order function
 // function total (a, b,operation){
 //     return a*b-operation
 // }
-// let result = total(5, 6, /*collback function=>*/ add(5, 6));
+// let result = total(5, 6, /*collback function=>*/ add(5, 6));a
 // console.log(result);
 
 console.log("first line");
