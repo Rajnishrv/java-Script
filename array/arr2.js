@@ -42,5 +42,5 @@ let cart=[
 let MRP=cart.reduce((sum,x)=>{
     return sum+x.price
 },0)
-// console.log(total);
+console.log(total);
 console.log(MRP);

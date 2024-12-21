@@ -24,12 +24,18 @@
 //  console.log(phone);
 //  console.log(student.lang)
 
- let arr = ["hi", 21, 23, 54, true, 22]
- let arr2 = [32, 43]
- let [...c] = [arr+arr2]
- let [...b] = arr + arr2;
- console.log(b);
+//  let arr = ["hi", 21, 23, 54, true, 22]
+//  let arr2 = [32, 43]
+//  let [...c] = [arr+arr2]
+//  let [...b] = arr + arr2;
+//  console.log(b);
 
- console.log(arr+arr2)
- console.log(typeof arr+arr2)
-    
+//  console.log(arr+arr2)
+//  console.log(typeof arr+arr2);
+
+// console.log(a);
+// let a = 'rajnish'
+
+// importent question
+let a = 0 || null;
+console.log(a);
